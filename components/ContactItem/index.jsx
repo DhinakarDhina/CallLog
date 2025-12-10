@@ -1,6 +1,6 @@
 import './index.css'
 
-const ContactItem  => {
+const ContactItem = props => {
   const {contactDetails, toggleIsFavorite} = props
   const {name, mobileNo, isFavorite, id} = contactDetails
 
@@ -33,4 +33,5 @@ const ContactItem  => {
 }
 
 export default ContactItem
+
 
