@@ -33,5 +33,3 @@ const ContactItem = props => {
 }
 
 export default ContactItem
-
-
